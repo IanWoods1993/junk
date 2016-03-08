@@ -1,0 +1,17 @@
+
+{
+  "name": "_jenkins_build_succeeded",
+  "type": "object",
+  "properties": {
+    "jobName": {
+      "type": "string"
+    },
+    "buildNumber": {
+      "type": "integer"
+    },
+    "completionDate": {
+      "type": "string",
+      "format": "date-time"
+    }
+  }
+}
