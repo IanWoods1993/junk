@@ -1,212 +1,23 @@
 {
-  "$schema": "http://json-schema.org/draft-04/schema#",
-  "id": "https://litmus.com",
-  "type": "object",
-  "properties": {
-    "id": {
-      "id": "https://litmus.com/id",
-      "type": "integer"
-    },
-    "type": {
-      "id": "https://litmus.com/type",
-      "type": "string"
-    },
-    "folder": {
-      "id": "https://litmus.com/folder",
-      "type": "string"
-    },
-    "isDraft": {
-      "id": "https://litmus.com/isDraft",
-      "type": "string"
-    },
-    "number": {
-      "id": "https://litmus.com/number",
-      "type": "integer"
-    },
-    "owner": {
-      "id": "https://litmus.com/owner",
-      "type": "object",
-      "properties": {
-        "id": {
-          "id": "https://litmus.com/owner/id",
-          "type": "integer"
-        },
-        "firstName": {
-          "id": "https://litmus.com/owner/firstName",
-          "type": "string"
-        },
-        "lastName": {
-          "id": "https://litmus.com/owner/lastName",
-          "type": "string"
-        },
-        "email": {
-          "id": "https://litmus.com/owner/email",
-          "type": "string"
-        },
-        "phone": {
-          "id": "https://litmus.com/owner/phone",
-          "type": "null"
-        },
-        "type": {
-          "id": "https://litmus.com/owner/type",
-          "type": "string"
-        }
-      }
-    },
-    "mailbox": {
-      "id": "https://litmus.com/mailbox",
-      "type": "object",
-      "properties": {
-        "id": {
-          "id": "https://litmus.com/mailbox/id",
-          "type": "integer"
-        },
-        "name": {
-          "id": "https://litmus.com/mailbox/name",
-          "type": "string"
-        }
-      }
-    },
-    "customer": {
-      "id": "https://litmus.com/customer",
-      "type": "object",
-      "properties": {
-        "id": {
-          "id": "https://litmus.com/customer/id",
-          "type": "integer"
-        },
-        "firstName": {
-          "id": "https://litmus.com/customer/firstName",
-          "type": "string"
-        },
-        "lastName": {
-          "id": "https://litmus.com/customer/lastName",
-          "type": "string"
-        },
-        "email": {
-          "id": "https://litmus.com/customer/email",
-          "type": "string"
-        },
-        "phone": {
-          "id": "https://litmus.com/customer/phone",
-          "type": "string"
-        },
-        "type": {
-          "id": "https://litmus.com/customer/type",
-          "type": "string"
-        }
-      }
-    },
-    "threadCount": {
-      "id": "https://litmus.com/threadCount",
-      "type": "integer"
-    },
-    "status": {
-      "id": "https://litmus.com/status",
-      "type": "string"
-    },
-    "subject": {
-      "id": "https://litmus.com/subject",
-      "type": "string"
-    },
-    "preview": {
-      "id": "https://litmus.com/preview",
-      "type": "string"
-    },
-    "createdBy": {
-      "id": "https://litmus.com/createdBy",
-      "type": "object",
-      "properties": {
-        "id": {
-          "id": "https://litmus.com/createdBy/id",
-          "type": "integer"
-        },
-        "firstName": {
-          "id": "https://litmus.com/createdBy/firstName",
-          "type": "string"
-        },
-        "lastName": {
-          "id": "https://litmus.com/createdBy/lastName",
-          "type": "string"
-        },
-        "email": {
-          "id": "https://litmus.com/createdBy/email",
-          "type": "string"
-        },
-        "phone": {
-          "id": "https://litmus.com/createdBy/phone",
-          "type": "null"
-        },
-        "type": {
-          "id": "https://litmus.com/createdBy/type",
-          "type": "string"
-        }
-      }
-    },
-    "createdAt": {
-      "id": "https://litmus.com/createdAt",
-      "type": "string"
-    },
-    "modifiedAt": {
-      "id": "https://litmus.com/modifiedAt",
-      "type": "string"
-    },
-    "closedAt": {
-      "id": "https://litmus.com/closedAt",
-      "type": "null"
-    },
-    "closedBy": {
-      "id": "https://litmus.com/closedBy",
-      "type": "null"
-    },
-    "source": {
-      "id": "https://litmus.com/source",
-      "type": "object",
-      "properties": {
-        "type": {
-          "id": "https://litmus.com/source/type",
-          "type": "string"
-        },
-        "via": {
-          "id": "https://litmus.com/source/via",
-          "type": "string"
-        }
-      }
-    },
-    "cc": {
-      "id": "https://litmus.com/cc",
-      "type": "array",
-      "items": {
-        "id": "https://litmus.com/auto-generated-schema-332"
-      }
-    },
-    "bcc": {
-      "id": "https://litmus.com/bcc",
-      "type": "array",
-      "items": {
-        "id": "https://litmus.com/auto-generated-schema-712"
-      }
-    },
-    "tags": {
-      "id": "https://litmus.com/tags",
-      "type": "array",
-      "items": {
-        "id": "https://litmus.com/auto-generated-schema-939"
-      }
-    },
-    "customFields": {
-      "id": "https://litmus.com/customFields",
-      "type": "array",
-      "items": {
-        "id": "https://litmus.com/auto-generated-schema-414"
-      }
-    },
-    "threads": {
-      "id": "https://litmus.com/threads",
-      "type": "array",
-      "items": {
-        "id": "https://litmus.com/auto-generated-schema-694"
-      }
-    }
-  }
+	"$schema": "http://iglucentral.com/schemas/com.snowplowanalytics.self-desc/schema/jsonschema/1-0-0#",
+	"description": "Field Nation product context schema. Information that comes with all events",
+	"self": {
+		"vendor": "com.fieldnation",
+		"name": "user_context",
+		"format": "jsonschema",
+		"version": "1-0-0"
+	},
+	"type": "object",
+	"properties": {
+		"userId": {
+			"type": "number"
+		},
+		"companyId": {
+			"type": "number"
+		},
+		"groupId": {
+			"type": "number"
+		}
+	},
+	"additionalProperties": false
 }
