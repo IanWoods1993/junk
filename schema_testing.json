@@ -26,6 +26,7 @@
       "type": "string",
       "format": "date-time",
       "dateTimeFormat": "yyyy-MM-dd HH:mm:ss[.SSSSSS]"
+      "sortkey": true
     },
     "NODEADDRESS": {
       "id": "http://jsonschema.net/nodeaddress",
@@ -61,6 +62,7 @@
     },
     "PERSONID": {
       "id": "http://jsonschema.net/personid",
+      "distkey": true,
       "type": "string"
     },
     "ACNAME": {
