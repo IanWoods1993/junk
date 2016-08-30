@@ -11,7 +11,7 @@
       "id": "http://jsonschema.net/cdt",
       "type": "string",
       "format": "date-time",
-      "dateTimePattern": "yyyy-MM-dd HH:mm:ss[.SSSSSS]"
+      "dateTimeFormat": "yyyy-MM-dd HH:mm:ss[.SSSSSS]"
     },
     "DESCNAME": {
       "id": "http://jsonschema.net/descname",
