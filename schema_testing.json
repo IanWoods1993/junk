@@ -25,7 +25,7 @@
       "id": "http://jsonschema.net/ndt",
       "type": "string",
       "format": "date-time",
-      "dateTimePattern": "yyyy-MM-dd HH:mm:ss[.SSSSSS]"
+      "dateTimeFormat": "yyyy-MM-dd HH:mm:ss[.SSSSSS]"
     },
     "NODEADDRESS": {
       "id": "http://jsonschema.net/nodeaddress",
