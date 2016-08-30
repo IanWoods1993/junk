@@ -10,7 +10,7 @@
     "CDT": {
       "id": "http://jsonschema.net/cdt",
       "type": "string",
-      "dateTimePattern": "yyyy-MM-dd HH:mm:ss[.SSSSSS]"
+      "dateTimeFormat": "yyyy-MM-dd HH:mm:ss[.SSSSSS]"
     },
     "DESCNAME": {
       "id": "http://jsonschema.net/descname",
@@ -23,7 +23,7 @@
     "NDT": {
       "id": "http://jsonschema.net/ndt",
       "type": "string",
-      "dateTimePattern": "yyyy-MM-dd HH:mm:ss[.SSSSSS]"
+      "dateTimeFormat": "yyyy-MM-dd HH:mm:ss[.SSSSSS]"
     },
     "NODEADDRESS": {
       "id": "http://jsonschema.net/nodeaddress",
