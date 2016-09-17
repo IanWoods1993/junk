@@ -1,7 +1,7 @@
 {
   "type": "object",
-  "title": "invocation",
-  "description": "Schema for a dbt invocation",
+  "title": "i love json schemas",
+  "description": "My super cool schema",
   "properties": {
     "project_id": {
       "type": "string"
